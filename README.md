@@ -34,6 +34,8 @@ Welcome to the **Introduction to Data Science Workshop**! In this 60-minute sess
 | **Machine Learning** | Algorithms that learn from and make predictions |
 | **Artificial Intelligence** | Simulating human intelligence in machines |
 
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a60c3b1d-212b-4172-b9d4-b7c8d5893dbe/50440fda-d287-45f8-8367-7d389448fc72/image.png)
+
 ### Skills Required:
 
 - **Programming**: Python, R

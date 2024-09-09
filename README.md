@@ -76,8 +76,19 @@ import seaborn as sns
 This documentation provides a step-by-step guide for handling common data preprocessing tasks, including handling missing values, feature encoding, and normalization. These are essential steps for preparing data for machine learning models.
 
 ---
+### Step 1: Feature Selection
 
-### Step 1: Handling Missing Values
+Feature selection is the process of choosing a subset of relevant features (or variables, predictors) for use in model construction. This technique is important in data science as it helps improve the performance of machine learning models by reducing overfitting, improving accuracy and reducing training time.
+
+#### Common Techniques for Feature Selection:
+1. **Filter Methods**: Features are selected based on their statistical relationship with the target variable, such as correlation, chi-square test, or mutual information.
+2. **Wrapper Methods**: Models are trained with different subsets of features, and the subset that gives the best model performance is selected. Techniques include recursive feature elimination (RFE) and forward/backward selection.
+3. **Embedded Methods**: Feature selection is integrated into the model training process itself, such as Lasso (L1 regularization) or decision trees, which inherently select important features.
+
+Feature selection is crucial for creating efficient, interpretable, and high-performing machine learning models.
+
+---
+### Step 2: Handling Missing Values
 
 Missing data can negatively affect the performance of machine learning models. In this step, we identify and handle missing values using different strategies.
 
@@ -145,7 +156,7 @@ This is particularly useful when the dataset has numerical data where you do not
 
 ---
 
-### Step 2: Feature Encoding
+### Step 3: Feature Encoding
 
 Categorical features need to be converted into numerical formats for most machine learning algorithms. There are two main methods for this: One-Hot Encoding and Label Encoding.
 
@@ -196,7 +207,7 @@ This method is typically used when there is an ordinal relationship between the 
 
 ---
 
-### Step 3: Normalization
+### Step 4: Normalization
 
 Normalization standardizes the range of independent features.
 
